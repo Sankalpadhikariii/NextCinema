@@ -1,0 +1,12 @@
+# Cache & Jupyter checkpoints
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Large datasets & binary models (>100MB limit)
+*.csv
+*.pkl
+*.npz
+
+# Dependencies
+node_modules/
