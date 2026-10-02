@@ -1,12 +1,19 @@
-# Cache & Jupyter checkpoints
+﻿# raw Kaggle data, too big for GitHub (download it from Kaggle)
+credits.csv
+keywords.csv
+links.csv
+links_small.csv
+movies_metadata.csv
+ratings.csv
+ratings_small.csv
+movies.pkl
+
+# movies_app.csv and mat.npz are small and the API needs them, so they are NOT ignored
+
 __pycache__/
 .ipynb_checkpoints/
-*.pyc
-
-# Large datasets & binary models (>100MB limit)
-*.csv
-*.pkl
-*.npz
-
-# Dependencies
+.pytest_cache/
 node_modules/
+dist/
+.venv/
+.env
